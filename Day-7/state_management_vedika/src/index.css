@@ -1,0 +1,63 @@
+/* Full screen pink-red gradient background */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffc1cc, #ff4d4d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container box matching the gradient theme */
+.container {
+  background: linear-gradient(135deg, #ffe0e6, #ff6666);
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  color: white; /* text color for contrast */
+}
+
+/* Buttons styling */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.button-increment {
+  background-color: #ff1a1a; /* bright red */
+}
+
+.button-decrement {
+  background-color: #ff6666; /* lighter red */
+}
+
+/* Input styling */
+input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #fff5f5;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: rgba(255,255,255,0.2);
+  color: white;
+}
+
+input::placeholder {
+  color: #ffe6e6;
+}
