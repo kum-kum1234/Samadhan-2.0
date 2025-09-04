@@ -1,0 +1,127 @@
+/* ===== Global Styles ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0d47a1, #1976d2); /* Blue gradient */
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+/* ===== Container ===== */
+.container {
+  width: 90%;
+  max-width: 700px;
+}
+
+/* ===== Heading ===== */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #ffeb3b; /* Yellow heading */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* ===== Form Styling ===== */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Add Note Button */
+.add-btn {
+  background: #2196f3;
+  color: white;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.add-btn:hover {
+  background: #1976d2;
+}
+
+/* ===== Notes Card ===== */
+.note-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: space-between; /* text left, buttons right */
+  align-items: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.note-card:hover {
+  transform: translateY(-4px);
+}
+
+/* ===== Text inside card ===== */
+.note-content {
+  flex: 1;
+  display: flex;              /* row me laane ke liye */
+  align-items: center;
+  gap: 12px;                  /* Title aur Content ke beech space */
+  overflow: hidden;
+}
+
+.note-content strong {
+  font-size: 16px;
+  color: #ffeb3b; /* Yellow for Title */
+  white-space: nowrap;
+}
+
+.note-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #e3f2fd; /* Light Blue for Content */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ===== Buttons in Card ===== */
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions .edit-btn {
+  background: #f39c12;
+  color: white;
+}
+
+.actions .edit-btn:hover {
+  background: #d68910;
+}
+
+.actions .delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.actions .delete-btn:hover {
+  background: #c0392b;
+}
