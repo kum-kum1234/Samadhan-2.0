@@ -25,6 +25,12 @@ It’s about showing up every day, learning something new, and making the most o
 🕒 Consistency is Key – Showing up every day and giving our best, no matter what.
 💡 Learning Never Stops – Every challenge is an opportunity to grow and explore.
 
+| 📋 Submission Component | 🔗 Access Link        | 📊 Status   |
+| ----------------------- | --------------------- | ----------- |
+| 📊 Project Presentation |[ [View PPhttps://docs.google.com/presentation/d/1aOLuBqXWORwcdQEOUtQQP4HS5ubSRqxX/edit?usp=sharing&ouid=109476808210378426689&rtpof=true&sd=trueT]  ]       | ✅ Completed |
+| 🎥 Demo Video           | [Watch on YouTube] | ✅ Completed |
+
+
 📅 Our Hackathon Promise
 
 Code with passion 💻
