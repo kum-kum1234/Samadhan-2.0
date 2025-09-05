@@ -28,7 +28,7 @@ It’s about showing up every day, learning something new, and making the most o
 | 📋 Submission Component | 🔗 Access Link        | 📊 Status   |
 | ----------------------- | --------------------- | ----------- |
 | 📊 Project Presentation |[ [View PPT  ](https://docs.google.com/presentation/d/1aOLuBqXWORwcdQEOUtQQP4HS5ubSRqxX/edit?usp=sharing&ouid=109476808210378426689&rtpof=true&sd=true)       | ✅ Completed |
-| 🎥 Demo Video           | [Watch on YouTube ( https://youtu.be/4ngPUwQf--g?si=zR5k8wWhQ2e9KHIn)] | ✅ Completed |
+| 🎥 Demo Video           | [Watch on YouTube](https://youtu.be/4ngPUwQf--g?si=zR5k8wWhQ2e9KHIn)| ✅ Completed |
 
 
 📅 Our Hackathon Promise
