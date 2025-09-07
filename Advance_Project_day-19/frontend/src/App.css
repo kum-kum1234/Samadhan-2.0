@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; background-color: #f0f2f5; margin: 0; }
+.container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+.navbar { display: flex; justify-content: space-between; align-items: center; background: #fff; padding: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.navbar a { text-decoration: none; color: #333; font-weight: bold; }
+.navbar div { display: flex; gap: 1rem; }
+.navbar button { background: #1877f2; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; }
+.post-form, .post, form { background: #fff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 1rem; margin-bottom: 1rem; }
+textarea { width: 100%; border-radius: 6px; border: 1px solid #ddd; padding: 0.5rem; font-size: 1rem; }
+.post-actions { display: flex; gap: 1rem; margin-top: 0.5rem; }
+.post-actions button { background: none; border: none; cursor: pointer; font-weight: bold; color: #65676b; }
+.comments-section { border-top: 1px solid #e9ebee; margin-top: 1rem; padding-top: 1rem; }
+.comment { margin-bottom: 0.5rem; }
+.comment strong { color: #385898; }
